@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+}
+#back{
+    opacity: 0.3;
+    width: 100%;
+    height: 100vh;
+}
+#logo{
+    position: absolute;
+    width: 300px;
+    top:1px;
+    margin-left: 80px;
+}
+#language{
+    position: absolute;
+    top: 50px;
+    margin-left: 1050px;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    border-color: 0.5px solid rgb(142, 140, 140);
+    padding-left: 10px;
+}
+#language{
+    cursor: pointer;
+}
+#signin{
+    position: absolute;
+    top: 46px;
+    margin-left: 1200px;
+    color: white;
+    background-color: rgb(224, 37, 37);
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+#signin:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#unlimi{
+    position: absolute;
+    color: white;
+    top: 240px;
+    font-size:50px;
+    font-weight: 600;
+    margin-left: 440px;
+}
+#starts{
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    top: 400px;
+    margin-left: 500px;
+}
+#ready{
+    position: absolute;
+    color: white;
+    font-weight: 200;
+    top: 450px;
+    margin-left: 420px;
+}
+#mail{
+    position: absolute;
+    background-color: transparent;
+    border: 0.5px solid rgb(142, 140, 140);
+    border-radius: 5px;
+    top: 550px;
+    margin-left: 420px;
+    width: 390px;
+    height: 50px;
+}
+#mail::placeholder{
+    color:rgb(196, 192, 192);
+    padding: 30px;
+    font-weight:bolder;
+}
+#mail:hover{
+    cursor: pointer;
+}
+#getstart{
+    color: white;
+}
+#getstart{
+    position: absolute;
+    top: 550px;
+    margin-left: 820px;
+    background-color: rgb(224, 37, 37);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom:5px;
+}
+#getstart:hover{
+    cursor: pointer;
+    background-color:rgb(177, 44, 44);
+}
+
+#Trend{
+    position: absolute;
+    color: white;
+    margin-left: 200px;
+    top: 800px;
+}
+#country{
+    position: absolute;
+    top: 850px;
+    margin-left: 200px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 90px;
+    font-size:large;
+}
+#shows{
+    position: absolute;
+    top: 850px;
+    margin-left: 300px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    font-size:large;
+}
+#card1{
+    position: absolute;
+    height: 350px;
+    top: 960px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+#card1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#card2{
+    position: absolute;
+    height: 350px;
+    top: 960px;
+    margin-left: 480px;
+    border-radius: 10px;
+}
+#card2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#card3{
+    position: absolute;
+    height: 350px;
+    top: 960px;
+    margin-left: 770px;
+    border-radius: 10px;
+}
+#card3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#card4{
+    position: absolute;
+    height: 350px;
+    top: 960px;
+    margin-left: 1040px;
+    border-radius: 10px;  
+}
+#card4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#more{
+    position: absolute;
+    color: white;
+    top: 1370px;
+    margin-left: 180px;
+}
+#enjoy{
+    position: absolute;
+    color: white;
+    top: 1430px;
+    margin-left: 180px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(2, 28, 28) , rgb(126, 45, 109));
+}
+#watch{
+    font-weight: 350;
+    font-size:medium;;
+    color: rgb(190, 186, 186);
+}
+#download{
+    position: absolute;
+    color: white;
+    top: 1430px;
+    margin-left: 460px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 123px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(2, 28, 28) , rgb(126, 45, 109));
+}
+#save{
+    font-weight: 350;
+    font-size:medium;;
+    color: rgb(190, 186, 186);
+}
+#everywhere{
+    position: absolute;
+    color: white;
+    top: 1430px;
+    margin-left: 760px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 152px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(2, 28, 28) , rgb(126, 45, 109));
+}
+#stream{
+    font-weight: 350;
+    font-size:medium;;
+    color: rgb(190, 186, 186);
+}
+#create{
+    position: absolute;
+    color: white;
+    top: 1430px;
+    margin-left: 1030px;
+    padding: 10px;
+    padding-right: 10px;
+    padding-bottom: 95px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(2, 28, 28) , rgb(126, 45, 109));
+}
+#send{
+    font-weight: 350;
+    font-size:medium;;
+    color: rgb(190, 186, 186);
+}
+#freq{
+    position: absolute;
+    color: white;
+    top: 1800px;
+    margin-left: 180px;
+}
+#what{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    top: 1860px;
+    margin-left: 180px;
+    background-color: rgb(46, 45, 45);
+    padding-right: 870px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#what:hover{
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+}
+#how{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    top: 1940px;
+    margin-left: 180px;
+    margin-top: 25px;
+    background-color: rgb(42, 40, 40);
+    padding-right: 705px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#how:hover{
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+}
+#where{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    top: 2020px;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: rgb(42, 40, 40);
+    padding-right: 811px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#where:hover{
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+}
+#cancel{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    top: 2020px;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: rgb(42, 40, 40);
+    padding-right: 760px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#cancel:hover{
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+}
+#can{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    top: 2125px;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: rgb(42, 40, 40);
+    padding-right: 710px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#can:hover{
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+}
+#good{
+    position: absolute;
+    color: rgb(218, 218, 218);
+    top: 2230px;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: rgb(42, 40, 40);
+    padding-right: 773px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#good:hover{
+    cursor: pointer;
+    background-color: rgb(58, 57, 57);
+}
+#mem{
+    position: absolute;
+    color: rgb(211, 210, 210);
+    top: 2460px;
+    margin-left: 420px;
+    font-weight: lighter;
+}
+#email{
+    position: absolute;
+    background-color: transparent;
+    border: 0.5px solid rgb(142, 140, 140);
+    border-radius: 5px;
+    top: 2530px;
+    margin-left: 310px;
+    width: 580px;
+    height: 50px;
+}
+#email::placeholder{
+    color:rgb(196, 192, 192);
+    padding: 30px;
+    font-weight:bolder;
+}
+#email:hover{
+    cursor: pointer;
+}
+#getstarted{
+    color: white;
+}
+#getstarted{
+    position: absolute;
+    top: 2530px;
+    margin-left: 900px;
+    background-color: rgb(224, 37, 37);
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom:5px;
+}
+#getstarted:hover{
+    cursor: pointer;
+    background-color:rgb(177, 44, 44);
+}
+p{
+    position: absolute;
+    color: rgb(148, 147, 147);
+    top: 2670px;
+    margin-left: 180px;
+}
+#number{
+    text-decoration: underline;
+}
+#number:hover{
+    cursor: pointer;
+}
+#desc{
+    position: absolute;
+    color: rgb(148, 147, 147);
+    top: 2750px;
+    margin-left:180px;
+    word-spacing: 150px;
+    font-size:smaller;
+}
+#desc:hover{
+    cursor: pointer;
+}
+#desc2{
+    position: absolute;
+    color: rgb(148, 147, 147);
+    top: 2780px;
+    margin-left:180px;
+    word-spacing: 20px;
+    font-size:smaller;
+    margin-top: 10px;
+}
+#desc2:hover{
+    cursor: pointer;
+}
+#desc3{
+    position: absolute;
+    color: rgb(148, 147, 147);
+    top: 2820px;
+    margin-left:180px;
+    word-spacing: 10px;
+    font-size:smaller;
+    margin-top: 10px;
+}
+#desc3:hover{
+    cursor: pointer;
+}
+#desc4{
+    position: absolute;
+    color: rgb(148, 147, 147);
+    top: 2860px;
+    margin-left:180px;
+    word-spacing: 7px;
+    font-size:smaller;
+    margin-top: 10px;
+}
+#desc4:hover{
+    cursor: pointer;
+}
+#language1{
+    position: absolute;
+    top: 2950px;
+    margin-left: 180px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(39, 35, 35);
+    color: white;
+    border-radius: 5px;
+    border-color: 0.5px solid rgb(142, 140, 140);
+    padding-left:10px;
+}
+#net{
+    top: 3020px;
+    font-size:medium;
+    padding-bottom: 100px;
+}
